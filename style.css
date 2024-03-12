@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 180vh;
+    background-image: linear-gradient(to top, #A7BDD9, #7E9ABF, #3E3F40);  
+    overflow-x: hidden;
+
+}
+
+
+header {
+    width: 100vw;
+    background-color: #A7BDD9;
+}
+
+nav { /*menu */
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+nav ul li  {
+    font-weight: bold;
+    list-style: none;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #3E3F40;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+nav ul li a:hover {
+    color: #DFE7F2;
+    
+}
+
+main {
+    padding: 2rem;
+}
+
+
+#home {
+    width: 50%;
+    height: 500px;
+    background-color: #A7BDD9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.600);
+}
+
+.titulo  {
+    color: #3E3F40;
+    font-size: 2rem;
+}
+
+.imagem {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px dotted #3E3F40;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.artigo h2 {
+    color: #3E3F40;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+.artigo p { /* texto digitado */
+    text-align: justify;
+    padding: 1rem;
+}
+
+#geral {
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #7E9ABF, #A7BDD9,#BACBD9);
+    margin: 30px auto;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.600);
+}
+
+#formacao h1 {
+    text-align: center;
+    background-color: #3e3f40d5;
+    color: #DFE7F2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#formacao ul  {
+    padding: 50px;
+    text-align: center;
+    padding-left: 50px;
+    list-style: none;
+}
+
+#competencia h1 {
+    text-align: center;
+    background-color:#3e3f40d5;
+    color: #DFE7F2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#competencia ul {
+    padding: 50px;
+    text-align: center;
+    padding-left: 50px;
+    list-style: none;
+}
+
+#projeto h1 {
+    text-align: center;
+    background-color: #3e3f40d5;
+    color: #DFE7F2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#projeto ul  {
+    padding: 50px;
+    text-align: center;
+    padding-left: 50px;
+    list-style: none;
+}
+
+#projeto a {
+    color: #000;
+    text-decoration: none;
+}
+#projeto a:hover {
+    color:  #DFE7F2;
+}
+
+#contato h1 {
+    text-align: center;
+    background-color: #3e3f40d5;
+    color: #DFE7F2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#contato ul {
+    padding: 30px;
+    text-align: center;
+    padding-left: 50px;
+    list-style: none;
+}
+
+#contato a {
+    color: #000;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    color:  #DFE7F2;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20
+  }
+
+
+footer {
+
+    background-color: #3E3F40;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #DFE7F2;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px){
+    header {
+        width: 100%;
+    }
+
+    nav ul li {
+     margin: auto;
+     padding-right: 20px;
+    }
+
+    #home {
+        width: 500px;
+        height: 300px;
+        border-radius: 30px;
+    }
+
+    .artigo p {
+        font-size: 0.7rem;
+    }
+
+    .artigo h1 {
+        font-size: 1.2rem;
+    }
+
+    .artigo h2 {
+        font-size: 1rem;
+    }
+
+    .imagem {
+        width: 150px;
+    }
+
+    #geral {
+        width: 500px;
+        padding: 25px;
+        border-radius: 30px;
+    }
+
+    #formacao ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #competencia ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #projeto ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #contato ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: auto;
+        padding-right: 20px;
+    }
+
+    #home {
+        width: 500px;
+        height: 300px;
+        border-radius: 30px;
+    }
+
+    .artigo p {
+        font-size: 0.7rem;
+    }
+
+    .artigo h1 {
+        font-size: 1.2rem;
+    }
+
+    .artigo h2 {
+        font-size: 1rem;
+    }
+
+    .imagem {
+        width: 150px;
+    }
+
+    #geral {
+        width: 500px;
+        padding: 25px;
+        border-radius: 30px;
+    }
+
+    #formacao ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #competencia ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #projeto ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #contato ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: auto;
+        padding-right: 20px;
+    }
+
+    #home {
+        width: 60%;
+        height: 300px;
+        border-radius: 30px;
+    }
+
+    .artigo p {
+        font-size: 0.8rem;
+    }
+
+    .artigo h1 {
+        font-size: 1.5rem;
+    }
+
+    .artigo h2 {
+        font-size: 1.rem;
+    }
+
+    .imagem {
+        width: 150px;
+    }
+
+    #geral {
+        width: 60%px;
+        padding: 25px;
+        border-radius: 30px;
+    }
+
+    #formacao ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #competencia ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #projeto ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+
+    #contato ul {
+        font-size: 0.8rem;
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width: 1200px){
+    body {
+        height: 180vh;
+    }
+
+}
+
+
